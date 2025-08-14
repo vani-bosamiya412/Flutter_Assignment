@@ -1,3 +1,6 @@
+// Build a simple calculator UI with RaisedButton or ElevatedButton widgets for numbers and operations. Display the result at the top
+// of the screen.
+
 import 'package:flutter/material.dart';
 
 void main() {
