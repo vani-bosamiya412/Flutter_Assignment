@@ -1,0 +1,46 @@
+Module - 1: Introduction to Mobile Development and Flutter
+
+1. Explain the benefits of using Flutter over other cross-platform frameworks.
+Single Codebase → One code runs on Android, iOS, web, and desktop.
+Hot Reload → Instantly see changes without restarting the app.
+Beautiful UI → Comes with rich Material Design (Android) and Cupertino (iOS) widgets.
+High Performance → Compiles directly to native code (no slow JavaScript bridge).
+Consistent Look → Same design across devices and platforms.
+Strong Community & Google Support → Large community, lots of ready-made packages, and backed by Google.
+Future-Ready → Not only mobile apps, but also supports web and desktop apps.
+
+2. Describe the role of Dart in Flutter. What are its advantages for mobile development?
+Flutter apps are written in Dart (a programming language by Google).
+Dart acts as the backbone of Flutter.
+
+Advantages of Dart for Mobile Development:
+Fast performance → Dart compiles to native code, so apps run smoothly.
+Easy to learn → Similar to Java, C#, and JavaScript → beginner-friendly.
+Hot Reload support → Works perfectly with Flutter’s instant UI updates.
+Object-Oriented → Supports classes, objects, and OOP concepts.
+Cross-platform → The same Dart code works for Android, iOS, web, and desktop.
+
+3. Outline the steps to set up a Flutter development environment.
+(1) Install Flutter SDK
+(2) Install an Editor/IDE
+(3) Install Android Studio (for emulator & tools)
+(4) Install Android SDK + Virtual Device (emulator).
+(5) Run Flutter Doctor.
+(6) Test your setup
+
+4. Describe the basic Flutter app structure, explaining main.dart, the main function, and the widget tree.
+When you create a new Flutter app, the main file is main.dart.
+
+Basic Structure:
+main.dart → The starting point of your app.
+main() function → The entry point (every Dart program starts here).
+runApp() → Launches the app and shows the first widget.
+Widget Tree → Every widget can have child widgets, making a tree structure.
+
+Explanation:
+main.dart → File where everything starts.
+main() → Calls runApp() to launch the app.
+runApp(MyApp()) → Tells Flutter to show MyApp widget as the root.
+MyApp → A widget that returns MaterialApp (provides themes, routes, etc.).
+Scaffold → Basic page layout (app bar, body, floating button, etc.).
+Widget Tree → runApp → MyApp → MaterialApp → Scaffold → AppBar, Body → Text
